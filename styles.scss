@@ -38,7 +38,27 @@ body {
     font-size: calc(7vw + 2rem);
     font-weight: 900;
     color: rgba(0, 0, 0, 0.1);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin: -0.3em 0 0.5em;
+}
+
+.task-list {
+    line-height: 1.7;
+    font-size: 1.2rem;
+    list-style: circle;
+    padding-left: 1.1em;
+}
+
+.new {
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+    border-bottom: 1px solid currentColor;
+    font-size: inherit;
+}
+
+.active-list {
+    font-weight: 700;
 }
 
 .todo-list {
